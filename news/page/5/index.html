@@ -6,7 +6,7 @@
 	<meta name="keywords" content="Maqetta, HTML5, tool, visual, Dojo, open, source" />
 	<meta name="description" content="Maqetta - Visual authoring of HTML5 user interfaces - in the browser" />
 
-	<title>Maqetta Announces Release of Preview 6</title>
+	<title>Maqetta Announces Release 7</title>
 	<link href="../../../favicon.ico" rel="icon" type="image/ico" />
 
 	<style type="text/css">
@@ -76,9 +76,6 @@
 							<li class="item11">
 								<a href="../../../overview/status.html">Project Status</a>
 							</li>
-							<li class="item12">
-								<a href="../../../overview/hosted.html">Hosted Application</a>
-							</li>
 							<li class="item14">
 								<a href="../../../community.html">Community</a>
 							</li>
@@ -113,9 +110,6 @@
 							</li>
 							<li class="item22">
 								<a href="../../../features/mobile.html">Mobile Authoring</a>
-							</li>
-							<li class="item23">
-								<a href="../../../features/future.html">Future Features</a>
 							</li>
 						</ul>
 					</li>
@@ -169,83 +163,67 @@
 							<span class="news">
   
     <h1 class="title">
-      <a href="../../2012/maqetta-announces-release-of-preview-6.html">Maqetta Announces Release of Preview 6</a>
+      <a href="../../2012/maqetta-announces-release-7.html">Maqetta Announces Release 7</a>
       <span class="date">
-        May 31
+        Sep  6
       </span>
     </h1>
     <span class="body">
-      <p>The Maqetta team is pleased to announce the <strong>Preview 6</strong> release on Maqetta.org. Read the full <a href='http://app.maqetta.org/maqetta/app/docs/index.html#releasenotes/preview6'>release notes</a>.</p>
+      <p>The Maqetta team is pleased to announce the <strong>Release 7</strong> of the Maqetta visual authoring tool Maqetta.org.</p>
 
 <p>Here is a summary of new features:</p>
 
-<p><strong>Visual editor improvements:</strong></p>
+<p><strong>User interface makeover:</strong></p>
 
 <ul>
-<li>Selection chrome has new look (and revised behavior)</li>
+<li>New visual styling for nearly all of the most common user interface components</li>
 
-<li>Ability to drag a widget by mouse-down on interior</li>
+<li>Redesigned, collapsable palettes on left and right side of user interface</li>
 
-<li>Elastic band select</li>
+<li>Streamlined user interface for creating HTML files</li>
 
-<li>Alt-key or Option-key to copy a widget with drag operation</li>
+<li>Redesigned and streamlined toolbar</li>
 
-<li>Select parent, Select ancestor, Unselect all (on context menu)</li>
+<li>New welcome page</li>
 
-<li>Move to front, move to back, move forward, move backward (absolutely positioned widgets - on context menu)</li>
+<li>New login and registration screens</li>
 </ul>
 
-<p><strong>Mobile UI sketching:</strong></p>
+<p><strong>Performance improvements:</strong></p>
 
 <ul>
-<li>Mobile device silhouettes as clip art :iPhone, iPad, Android_340x480, Android_480x800, AndroidTablet, Blackberry phone</li>
+<li>Page editor speedups - Release 7 includes several performance improvements, particularly around opening up new HTML files and increased snappiness when users add new widgets to the page.</li>
 
-<li>Countless fixes so that Dojo Mobile widgets can be used in sketch mode</li>
-
-<li>New <a href='http://app.maqetta.org/maqetta/app/docs/index.html#tutorials/Mobile_Sketching'>mobile sketching tutorial</a>.</li>
+<li>Release 7 integrates <a href='http://dojofoundation.org/projects/zazl'>ZAZL open source technology</a> into Maqetta&#8217;s preview-in-browser feature. When turned on (in the Preferences dialog on the Settings menu at the top-right of the top toolbar), whenever a user clicks on the preview-in-browser button, Maqetta will run ZAZL on the server to optimize (build and minify) the user&#8217;s HTML page to minimize network requests and download sizes when viewing that page directly in the web browser, typically speeding up first-time previews considerably.</li>
 </ul>
 
-<p><strong>GridX support</strong>, with creation wizard that allows for column control</p>
+<p><strong>Eclipse Orion integration</strong></p>
 
 <ul>
-<li>GridX replaces DataGrid</li>
+<li>Release 7 adds a new command to the Open menu, &#8220;Open Orion Navigator&#8221;, which opens a new browser window that launches the Eclipse Orion cloud-based source development tools, where you can perform source editing in the cloud on the various files within your Maqetta workspace. Release 7 replaces most of the old logic for user management and workspace management with Orion code that provided similar services.</li>
 </ul>
 
-<p><strong>Properties palette improvements:</strong></p>
+<p><strong>HTML table enhancements:</strong></p>
 
 <ul>
-<li>&#8216;moveTo&#8217; properties provide drop-downs of current mobile views</li>
+<li>Table dialog at table creation time (and subsequent editing) - With Release 7, when a user adds an HTML table to the page, he is presented with a dialog that allows the user to chooose number of rows, number of columns, border thickness, &#8216;border-collapse&#8217;, &#8216;table-layout&#8217; and whether first row should be a header row</li>
 
-<li>&#8216;class&#8217; attribute provides drop-down list of currently used classes</li>
-
-<li>&#8216;class&#8217; and &#8216;id&#8217; &#8216;fields on separate lines, and are stretchable</li>
+<li>Column width control on the canvas</li>
 </ul>
 
-<p><strong>Drawing tool improvements:</strong></p>
+<p><strong>Tree widget enhancements:</strong></p>
 
 <ul>
-<li>revised collection of line/arrow widgets (Line, Arrow, Polyline, Polyline Arrow)</li>
+<li>User can specify custom icons on individual tree nodes. For container tree nodes, users can specify both a closed and open icon.</li>
 
-<li>ability to drag out initial size and direction for lines and arrows</li>
+<li>User can specify what actions to take on each tree node for click, double-click, open and close.</li>
 
-<li>multiple-click create of polylines</li>
+<li>Ability to reorder tree nodes via simple drag/drop.</li>
 </ul>
 
-<p><strong>Mobile UI improvements:</strong></p>
+<p><strong>Save As Widget :</strong> This command will create a re-usable widget out of the currently selected widget, and add a new widget into a &#8220;User Widgets&#8221; section of the widgets palette..</p>
 
-<ul>
-<li>Mobile silhouette orientation now persists</li>
-
-<li>moveTo property now lists existing mobile view ids</li>
-
-<li>You can now drag and drop widgets into ListItems</li>
-
-<li>IconContainer now has a easier to use editing tool</li>
-</ul>
-
-<p>Limited <strong>PHP file support</strong> - Maqetta page editor allows PHP constructs (and generally just ignores them) inside the HTML files. See release notes for details.</p>
-
-<p><strong>CSV data file support</strong> - previous versions only support JSON data</p>
+<p><strong>Keyboard shortcuts for common operations</strong> - Release 7 supports various common keyboard shortcuts in the visual editor, including shortcuts for cut, copy, paste, undo, redo and save.</p>
 
 <p><strong>Many bug fixes</strong></p>
 
@@ -262,7 +240,7 @@
       </span>
 
       <span class="index">
-        5 of 6
+        5 of 7
       </span>
 
       <span class="next">

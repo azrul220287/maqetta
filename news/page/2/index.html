@@ -6,7 +6,7 @@
 	<meta name="keywords" content="Maqetta, HTML5, tool, visual, Dojo, open, source" />
 	<meta name="description" content="Maqetta - Visual authoring of HTML5 user interfaces - in the browser" />
 
-	<title>Maqetta Release 9</title>
+	<title>Maqetta Release 10</title>
 	<link href="../../../favicon.ico" rel="icon" type="image/ico" />
 
 	<style type="text/css">
@@ -76,9 +76,6 @@
 							<li class="item11">
 								<a href="../../../overview/status.html">Project Status</a>
 							</li>
-							<li class="item12">
-								<a href="../../../overview/hosted.html">Hosted Application</a>
-							</li>
 							<li class="item14">
 								<a href="../../../community.html">Community</a>
 							</li>
@@ -113,9 +110,6 @@
 							</li>
 							<li class="item22">
 								<a href="../../../features/mobile.html">Mobile Authoring</a>
-							</li>
-							<li class="item23">
-								<a href="../../../features/future.html">Future Features</a>
 							</li>
 						</ul>
 					</li>
@@ -169,23 +163,91 @@
 							<span class="news">
   
     <h1 class="title">
-      <a href="../../2013/maqetta-release-9.html">Maqetta Release 9</a>
+      <a href="../../2013/maqetta-release-10.html">Maqetta Release 10</a>
       <span class="date">
-        Feb  6
+        Apr 29
       </span>
     </h1>
     <span class="body">
-      <p>We have now posted Release 9 of the Maqetta application at <a href='http://maqetta.org'>http://maqetta.org</a>.</p>
+      <p>We have updated Maqetta.org with <strong><em>Maqetta Release 10</em></strong>. There are a large number of improvements in this release.</p>
 
-<p>If you run the Maqetta application at <a href='http://maqetta.org'>http://maqetta.org</a>, you be running the new release.</p>
+<p>We are not aware of any migration issues and believe that content create in Release 9 should work with Release 10.</p>
 
-<p>If you have been using a downloaded version of Maqetta 8, then we recommend that you pull down the new Release 9 download from <a href='http://maqetta.org/downloads/'>http://maqetta.org/downloads/</a> (usually <a href='http://www.maqetta.org/downloads/maqetta-release-9.zip'>http://www.maqetta.org/downloads/maqetta-release-9.zip</a>), and then copy your users/ folder from your Release 8 installation into your Release 9 installation.</p>
+<h4 id='release_10_highlights'>Release 10 highlights:</h4>
 
-<p>We are not aware of any migration issues with user files.</p>
+<ul>
+<li>
+<p><strong>Upload ZIP from local file system</strong> - With Release 10, we have added an the ability to upload a ZIP file from your local file system into your cloud workspace. Maqetta will expand the contents of the ZIP and store the embedded files within a target folder in your cloud workspace.</p>
+</li>
 
-<p>Major changes include several new tutorials, LDAP support, WAR/Tomcat support, and three new icons on Scenes palette for more efficient development using application states. For more information about the new release, please refer to the release notes:</p>
+<li>
+<p><strong>Clone existing project and &#8220;Save as project template&#8221;</strong> - With Release 10, we have added a series of features that make it more convenient to work with projects. The two main new features are the ability to clone an existing project, and the ability to save the current project as a &#8220;project template&#8221; that you or your colleagues can use in the future.</p>
+</li>
 
-<p><a href='http://app.maqetta.org/maqetta/app/docs/index.html#releasenotes/release9'>http://app.maqetta.org/maqetta/app/docs/index.html#releasenotes/release9</a></p>
+<li>
+<p><strong>Files palette UI changes</strong> - changes to toolbar and context menus - With Release 10, the File palette has a redesigned toolbar, and the context menu has been changed.</p>
+</li>
+
+<li>
+<p><strong>Several new clipart icons</strong> - Release 10 adds the following new clipart images: Cellphone, Computer, Copy, Delete, Edit, Error, Fatal, Folder, GraphBar, GraphLine, GraphPie, Info, Laptop, Paste, ProgressBar, Record, Refresh, Save, Server, Table, Tablet, WaitingPending, Warning.</p>
+</li>
+
+<li>
+<p><strong>onChange event support</strong> - The onChange event has been added to the Events palette.</p>
+</li>
+
+<li>
+<p><strong>Source edits are now undo-able</strong> - If you change HTML source code in the Maqetta source editor (either in source view or one of the split views), those changes are now undoable.</p>
+</li>
+
+<li>
+<p><strong>Source editing improvements for mobile applications</strong> - We fixed some problems when doing source editing of multi-view mobile applications.</p>
+</li>
+
+<li>
+<p><strong>Can now re-order application states using drag/drop</strong> - In the Scenes palette, you can now re-order application states by dragging one of the existing application states to a new position.</p>
+</li>
+
+<li>
+<p><strong>Updated to Eclipse Orion 2.0</strong> - Maqetta now builds on top of Orion 2.0 (upgraded from v0.5). A few new features are available in the source editor, such as bracket matching and a folding ruler for comments when editing JS and CSS. For more information, please visit the Orion website.</p>
+</li>
+
+<li>
+<p><strong>Different behavior when Publishing a review</strong> - In previous releases, when you created a new review and clicked on the Publish button in the Create Review wizard, the application would open up a review session within the author&#8217;s running copy of Maqetta. With Release 10, we no longer open a review session when clicking on Publish. The user has to open review HTML files manually.</p>
+</li>
+
+<li>
+<p><strong>User actual name</strong> - In various parts of the UI, Maqetta now shows the user&#8217;s real name (e.g., John Smith) instead of the user&#8217;s email (john&#8230;@example.com).</p>
+</li>
+
+<li>
+<p><strong>Widget-specific date properties now include date picker</strong> - Any widget-specific properties that are specified as holding a date value now will present a popup date picker in the &#8220;Widget&#8221; section of the properties palette.</p>
+</li>
+
+<li>
+<p><strong>Small &#8220;x&#8221; icon added to widget palette filter box</strong> - There is now a small &#8220;x&#8221; that appears in the filter box for the widget palette whenever there is at least one character typed into the filter box. The &#8220;x&#8221; icon clears the filter box.</p>
+</li>
+
+<li>
+<p><strong>Enhanced SmartInput</strong></p>
+
+<ul>
+<li>- Setting multiple fields from SmartInput - For example dojo TextBox supports the HTML placeHolder attribute, SmartInput for all dojo TextBox now lets the user set the TextBox value and placeHolder attributes.</li>
+
+<li>- Setting Date and Time fields from SmartInput using date and time pickers - For example dojo DateTextBox SmartInput now uses a date picker for setting the value feild.</li>
+</ul>
+</li>
+
+<li>
+<p><strong>Theme Editor support for simulating CSS Pseudo-class behaviors</strong> - For example the user can now select the HTML button, select the Hover from the states palette and set the :hover CSS Pseudo-class in the claro theme.</p>
+</li>
+
+<li>
+<p><strong>Save As Widget Improvements - old custom widgets not supported</strong> - The Save As Widget feature has been &#8220;experimental&#8221;, and with Release 10 continues to be experimental, but in Release 10 there have been improvements and bug fixes. The improvements required some significant coding changes, and the coding changes resulted in lack of backwards-compatible support for custom widgets created in previous versions.</p>
+</li>
+</ul>
+<br />
+<p><strong>Downloads</strong> are available from the main <a href='http://github.com/maqetta/maqetta/releases'>downloads page</a>.</p>
     </span>
   
 
@@ -198,7 +260,7 @@
       </span>
 
       <span class="index">
-        2 of 6
+        2 of 7
       </span>
 
       <span class="next">
